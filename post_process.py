@@ -9,4 +9,4 @@ for f in ['openjp2.dll', 'libpng16.dll']:
     shutil.copy2(os.path.join(ori_dir, f), dst_dir)
 
 # Make archive
-# print(shutil.make_archive('eccodes-win-x64', 'zip', 'C:/eccodes'))
+print(shutil.make_archive('eccodes-win-x64', 'zip', 'C:/eccodes'))
